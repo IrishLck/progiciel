@@ -1,16 +1,16 @@
 // ✅ Version restaurée avec fiche client + composantes stables
 
 import { useState } from "react";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Input } from "./components/ui/input";
+import { Button } from "./components/ui/button";
+import { Card, CardContent } from "./components/ui/card";
 import {
   Select,
   SelectTrigger,
   SelectItem,
   SelectContent,
   SelectValue,
-} from "@/components/ui/select";
+} from "./components/ui/select";
 
 const fabricants = ["Faber", "Altex", "Ambiance Déco", "Persienne Design", "Sol-r"];
 const produitsParFabricant = {
